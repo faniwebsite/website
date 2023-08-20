@@ -1,0 +1,263 @@
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.active:focus,
+.navbar-nav .nav-link.active:hover {
+  font-weight: bold !important;
+  color:white !important;
+  /* border-bottom: 3px solid white!important */;
+}
+
+.navbar-nav .nav-link.active::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: white;
+  margin-top: 3px;
+}
+
+.nav-link{
+  font-weight: 700;
+  
+}
+
+.fa1{
+  padding-right:6px;
+}
+.f1{
+  color: #4267B2;
+}
+.f2{
+  color: green;
+}
+.footer .container > div {
+  display: flex;
+  align-items: center;
+}
+
+.footer .container > div:last-child {
+  margin-left: auto;
+}
+
+.footer .container a {
+  margin-left: 25px; /* Add some space between the elements */
+}
+
+
+body{
+background-image: linear-gradient(to right, #8B8ABB, #8AC59D);
+}
+
+
+
+
+.topbox {
+  background-color: rgba(83, 144, 217, 1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-box,
+.centered-box {
+  color: white;
+}
+
+/* Styles for left-box (Services) */
+.left-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tp1-wrapper {
+  margin-bottom: 10px;
+}
+
+.tp1 {
+  font-size: 28px;
+  animation: colorChange 20s infinite; /* Adjust animation duration */
+  transition: color 1s ease; /* Add smooth color transition */
+  font-weight: 800;
+  margin-top: 2px;
+}
+
+.tp2 {
+  margin-top: 8px;
+  font-size: 16px;
+  max-width: 400px;
+}
+
+/* Styles for centered-box (WHY CHOOSE US?) */
+.centered-box {
+  flex: 1;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 160, 0.5);
+  border-radius: 0px 50px 10px;
+  padding: 20px;
+  box-shadow: 17px 17px 17px rgba(0, 0, 0, 0.7);
+}
+
+.why {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+
+
+
+
+.services-options {
+  display: flex;
+  justify-content: center;
+  background-color: #457b9d;
+  border: 1px solid black;
+}
+
+.option-button {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.option-button.active {
+  background-color: #333333; /* Black color when active */
+  color: white; 
+}
+
+ 
+.card {
+  margin-bottom: 20px; 
+  margin-top: 20px;
+}
+
+.htop{
+ text-align: center;
+ margin-top: 15px;
+}
+
+.ptop{
+ padding-left: 55px;
+ padding-right: 55px;
+ font-weight: 600;
+ font-size: 30;
+}
+
+
+
+
+@media (max-width: 450px){
+
+  
+  .topbox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .centered-box {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .tp2 {
+    max-width: 100%;
+    font-size: 13px;
+  }
+ 
+  .option-button{
+    margin-top: 10px;
+   }
+
+   .centered-box{
+    font-size: 13px;
+   }
+   .why{
+    font-size:17px ;
+   }
+   .card {
+    /* Your existing card styles */
+    margin-bottom: 10px; /* Add space between cards vertically */
+  }
+
+  .ptop{
+    padding-left: 8px;
+    padding-right: 8px;
+   }
+   
+   .option-button {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 7px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+ }
+/* Media Query for responsive adjustments */
+@media (min-width: 450px) and (max-width: 768px) {
+  .topbox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .centered-box {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .tp2 {
+    max-width: 100%;
+  }
+  .card {
+    /* Your existing card styles */
+    margin-bottom: 15px; /* Add space between cards vertically */
+  }
+  
+  .option-button {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 9px 17px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  .ptop{
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+}
+
+
+
+/* Color changing animation */
+@keyframes colorChange {
+  0%, 100% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: purple;
+  }
+
+  
+}

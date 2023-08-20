@@ -1,0 +1,547 @@
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.active:focus,
+.navbar-nav .nav-link.active:hover {
+  font-weight: bold !important;
+  color:white !important;
+  /* border-bottom: 3px solid white!important */;
+}
+
+.navbar-nav .nav-link.active::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: white;
+  margin-top: 3px;
+}
+
+.nav-link{
+  font-weight: 700;
+}
+
+.fa1{
+  padding-right:6px;
+}
+
+.form-floating{
+  position: relative;
+}
+
+.icon{
+  position: absolute;
+  top: calc(50%);
+  left: 1.25rem;
+}
+
+.form-floating label, .form-floating .form-control{
+  left: .5rem;
+  padding-left: 3.5rem;
+}
+
+.icon-textarea{
+  position: absolute;
+  top: 1.8rem;
+  left: 1.25rem;
+}
+
+.text-black {
+  color: #000;
+}
+
+.content {
+  padding: 3rem 0;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  background: #f3f3f3;
+}
+
+
+.form-floating .valid-feedback,
+.form-floating .error-message {
+  color: green;
+  display: none;
+  margin-left: 10px;
+}
+
+.form-floating .error-message {
+  color: red;
+}
+
+.form-control.error {
+  border-color: red;
+}
+
+.form-control.valid {
+  border-color: #4BB543;
+}
+
+.form-control.valid + .valid-feedback {
+  display: block;
+}
+
+.form-control.error + .error-message {
+  display: block;
+}
+
+.form-control.error {
+  border-color: red;
+}
+
+.form-control.valid {
+  border-color: #80b918;
+  border-width: 3px;
+}
+
+
+
+
+
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #000;
+  background: #f3f3f3;
+}
+
+.col-form-label {
+  color: #000;
+}
+
+.form-control{
+  margin-top: 7px;
+}
+.btn,
+.form-control,
+.custom-select {
+  height: 50px;
+}
+
+.custom-select:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #000;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px!important;
+}
+
+.btn.btn-primary {
+  background: #000;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.btn.btn-primary:hover {
+  color: #fff;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.box {
+  padding: 40px;
+  background: #fff;
+  box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, .08);
+}
+
+label.error {
+  font-size: 12px;
+  color: red;
+}
+
+#message {
+  resize: vertical;
+}
+
+#form-message-warning,
+#form-message-success {
+  display: none;
+}
+
+#form-message-warning {
+  color: #B90B0B;
+}
+
+#form-message-success {
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+}
+
+#message {
+  resize: none;
+}
+
+
+.topbox {
+  background: linear-gradient(to right, #98FB98 0%,  #00b4d8 33%, #023e8a 100%);
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.centered-box {
+  /* Add any styles you want for the centered box here */
+  /* For example, you can set the width, height, and background color */
+  width: 600px;
+  height: 130px;
+  position: relative;
+  text-align: center;
+}
+
+.centerh2{
+  font-weight: 800;
+  padding-top: 16px;
+  
+}
+.span1{
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: white;
+  font-size:38px;
+}
+.span2{
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: white;
+  font-size:38px;
+}
+.span3{
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: white;
+  font-size:38px;
+}
+.centerp{
+  padding-top: 14px;
+  position: relative;
+  font-weight: 700;
+}
+
+.centerp::before,
+.centerp::after {
+  content: "";
+  position: absolute;
+  top: 63%;
+  width: 90px;
+  height: 1.5px;
+  background-color: red;
+}
+
+.centerp::before {
+  right: 61%; /* Place the line to the left of the text */
+  margin-right: 10px; /* Adjust the distance between the line and text */
+}
+
+.centerp::after {
+  left: 61%; /* Place the line to the right of the text */
+  margin-left: 10px; /* Adjust the distance between the line and text */
+  margin-top: 2px;
+}
+.question{
+  font-family: 'Acme', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+
+.secondbox{
+  border: 2px solid black;
+  width: 30%;
+  margin-left: 20%;
+  height: 330px;
+  box-sizing: border-box;
+  background-color: #a5a58d;
+  
+  
+}
+
+
+.contact-heading{
+  text-align: center;
+  color: black;
+  font-family: 800;
+
+}
+
+.contact-description{
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.facebooklogo{
+  color: #4267B2;
+}
+
+.emaillogo{
+  color: #BB001B;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.phonelogo{
+ color:#006400;
+ margin-top: 15px;
+ padding-top: 15px;
+ 
+}
+
+.facebooktext{
+ padding-left: 15px;
+ color: white;
+ font-size: 17px;
+ font-weight: 600;
+ 
+}
+
+.emailtext{
+  padding-left: 15px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.phonetext{
+  padding-left: 15px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.lll{
+  text-decoration: none;
+}
+
+.phonetext:hover, .emailtext:hover, .facebooktext:hover{
+  color: #023e8a;
+  text-decoration: underline;
+}
+
+
+
+@media (max-width: 378px){
+.secondbox{
+  border: 2px solid black;
+  width: 55%;
+  height: 550px;
+  margin-left: 20%;
+  box-sizing: border-box;
+  background-color: #a5a58d;
+  margin-top: 40px;    
+  padding-top: 15px;
+}
+
+.facebooktext, .emailtext, .phonetext {
+ font-size: 14px;
+}
+
+.centerp::before {
+  right: 67%; /* Place the line to the left of the text */
+  margin-right: 10px; /* Adjust the distance between the line and text */
+  margin-top: 2px;
+}
+
+.centerp::after {
+  left: 67%; /* Place the line to the right of the text */
+  margin-left: 10px; /* Adjust the distance between the line and text */
+  margin-top: 2px;
+}
+
+.span1{
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: white;
+  font-size:26px;
+}
+.span2{
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: white;
+  font-size:26px;
+}
+.span3{
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: white;
+  font-size:26px;
+}
+
+}
+
+
+@media (min-width: 378px) and (max-width: 425px){
+
+  .centerh2{
+    font-weight: 700;
+    padding-top: 16px;
+    
+  }
+
+  .span1{
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: white;
+    font-size:28px;
+  }
+  .span2{
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: white;
+    font-size:28px;
+  }
+  .span3{
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: white;
+    font-size:28px;
+  }
+
+  .centerp{
+    padding-top: 14px;
+    position: relative;
+    font-weight: 700;
+  }
+  
+  .centerp::before,
+  .centerp::after {
+    content: "";
+    position: absolute;
+    top: 63%;
+    width: 90px;
+    height: 1.5px;
+    background-color: red;
+  }
+  
+  .centerp::before {
+    right: 65%; /* Place the line to the left of the text */
+    margin-right: 10px; /* Adjust the distance between the line and text */
+    margin-top: 2px;
+  }
+  
+  .centerp::after {
+    left: 65%; /* Place the line to the right of the text */
+    margin-left: 10px; /* Adjust the distance between the line and text */
+    margin-top: 2px;
+  }
+
+  .secondbox{
+    border: 2px solid black;
+    width: 55%;
+    height: 400px;
+    margin-left: 20%;
+    box-sizing: border-box;
+    background-color: #a5a58d;
+    margin-top: 40px;    
+    padding-top: 15px;
+  }
+  
+}
+
+@media (min-width: 425px) and (max-width: 770px) {
+  .centerh2{
+    font-weight: 700;
+    padding-top: 16px;
+    
+  }
+
+  .span1{
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: white;
+    font-size:32px;
+  }
+  .span2{
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: white;
+    font-size:32px;
+  }
+  .span3{
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: white;
+    font-size:32px;
+  }
+
+  .centerp{
+    padding-top: 14px;
+    position: relative;
+    font-weight: 700;
+  }
+  
+  .centerp::before,
+  .centerp::after {
+    content: "";
+    position: absolute;
+    top: 63%;
+    width: 90px;
+    height: 1.5px;
+    background-color: red;
+  }
+  
+  .centerp::before {
+    right: 62%; /* Place the line to the left of the text */
+    margin-right: 10px; /* Adjust the distance between the line and text */
+    margin-top: 2px;
+  }
+  
+  .centerp::after {
+    left: 62%; /* Place the line to the right of the text */
+    margin-left: 10px; /* Adjust the distance between the line and text */
+    margin-top: 2px;
+  }
+
+  .secondbox{
+    border: 2px solid black;
+    width: 55%;
+    height: 400px;
+    margin-left: 20%;
+    box-sizing: border-box;
+    background-color: #a5a58d;
+    margin-top: 44px;    
+    padding-top: 15px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 991px){
+  .secondbox{
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 20%;
+    height: 400px;
+    box-sizing: border-box;
+    background-color: #a5a58d;
+  }
+}
+
+
+.f1{
+  color: #4267B2;
+}
+.f2{
+  color: green;
+}
+.footer .container > div {
+  display: flex;
+  align-items: center;
+}
+
+.footer .container > div:last-child {
+  margin-left: auto;
+}
+
+.footer .container a {
+  margin-left: 25px; /* Add some space between the elements */
+}
